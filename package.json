@@ -1,0 +1,20 @@
+{
+  "name": "@bitt-tools/static-generator",
+  "version": "0.1.0",
+  "description": "A static site generator for the Bitt framework.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build-example": "nodemon example/build"
+  },
+  "repository": "https://github.com/bitt-tools/static-generator",
+  "author": "Andres Sweeney-Rios",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "bitt": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
